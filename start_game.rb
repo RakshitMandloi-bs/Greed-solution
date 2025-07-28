@@ -1,6 +1,6 @@
 require_relative './game'
 
-puts "Welcome to Greed Dice Game!"
+puts "🎲 Welcome to Greed Dice Game!"
 print "Enter number of players: "
 num_players = gets.strip.to_i
 

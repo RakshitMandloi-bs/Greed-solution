@@ -45,7 +45,7 @@ class Game
     end
 
     winner = @players.max_by(&:total_score)
-    puts "\n#{winner.name} wins with #{winner.total_score} points!"
+    puts "\n🏆 #{winner.name} wins with #{winner.total_score} points!"
   end
 
   private
